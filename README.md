@@ -24,21 +24,13 @@ The "Calculate Distance Between Locations" script calculates the distance along 
 
 The "Get Current Location" script parses the result of the LocationValues function into separate variables, and checks whether the result is cached from a previous location fix.
 
-### Start Navigation in Apple Maps
+### Set Preferred Navigation App
 
-The "Start Navigation in Apple Maps" script launches the Apple Maps app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+The Location Kit module includes scripts for launching other iOS apps for providing turn-by-turn directions to a destination. The "Set Preferred Navigation App" script sets which app will be used by the "Start Navigation" script during a user session, so that users with different installed apps can be accommodated.
 
-### Start Navigation in Google Maps
+### Start Navigation
 
-The "Start Navigation in Apple Maps" script launches the [Google Maps](https://itunes.apple.com/us/app/google-maps/id585027354?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
-
-### Start Navigation in Navigon
-
-The "Start Navigation in Navigon" script launches the [Navigon](https://itunes.apple.com/us/app/navigon-north-america/id321506742?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
-
-### Start Navigation in Waze
-
-The "Start Navigation in Waze" script launches the [Waze](https://itunes.apple.com/us/app/waze-social-gps-maps-traffic/id323229106?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude). Waze does not support automatically starting navigation when the destination is specified by address, only for coordinates.
+The "Start Navigation" script launches the preferred navigation app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude). Some apps offer options that others do not. Navigon accepts a "name" parameter, and Google Maps accepts a "directionsMode" parameter, for example.
 
 ## Custom Functions
 
