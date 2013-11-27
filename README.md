@@ -24,6 +24,10 @@ The "Calculate Distance Between Locations" script calculates the distance along 
 
 The "Get Current Location" script parses the result of the LocationValues function into separate variables, and checks whether the result is cached from a previous location fix.
 
+### Start Navigation in Apple Maps
+
+The "Start Navigation in Apple Maps" script launches the Apple Maps app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+
 ### Start Navigation in Navigon
 
 The "Start Navigation in Navigon" script launches the [Navigon](https://itunes.apple.com/us/app/navigon-north-america/id321506742?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
