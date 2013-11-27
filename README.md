@@ -26,7 +26,11 @@ The "Get Current Location" script parses the result of the LocationValues functi
 
 ### Start Navigation in Navigon
 
-The "Start Navigation in Navigon" script launches the Navigon app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+The "Start Navigation in Navigon" script launches the [Navigon](https://itunes.apple.com/us/app/navigon-north-america/id321506742?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+
+### Start Navigation in Waze
+
+The "Start Navigation in Waze" script launches the [Waze](https://itunes.apple.com/us/app/waze-social-gps-maps-traffic/id323229106?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude). Waze does not support automatically starting navigation when the destination is specified by address, only for coordinates.
 
 ## Custom Functions
 
