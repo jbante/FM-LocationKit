@@ -24,6 +24,10 @@ The "Calculate Distance Between Locations" script calculates the distance along 
 
 The "Get Current Location" script parses the result of the LocationValues function into separate variables, and checks whether the result is cached from a previous location fix.
 
+### Start Navigation in Navigon
+
+The "Start Navigation in Navigon" script launches the Navigon app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+
 ## Custom Functions
 
 ### LocationAzimuth ( latitude1 ; longitude1 ; latitude2 ; longitude2 )
