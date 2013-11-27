@@ -28,6 +28,10 @@ The "Get Current Location" script parses the result of the LocationValues functi
 
 The "Start Navigation in Apple Maps" script launches the Apple Maps app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
 
+### Start Navigation in Google Maps
+
+The "Start Navigation in Apple Maps" script launches the [Google Maps](https://itunes.apple.com/us/app/google-maps/id585027354?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
+
 ### Start Navigation in Navigon
 
 The "Start Navigation in Navigon" script launches the [Navigon](https://itunes.apple.com/us/app/navigon-north-america/id321506742?mt=8&uo=4) app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude).
