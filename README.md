@@ -12,25 +12,17 @@ There are scripts and custom functions in this module, but you do not have to us
 
 ## Scripts
 
-### Calculate Direction Between Locations
+### Get Distance and Direction Between Locations
 
-The "Calculate Direction Between Locations" script calculates the direction (azimuth and cardinal direction) at the start of a straight line (great circle) path between two points on the surface of the Earth. The LocationAzimuth and LocationCardinalDirection custom functions can be used for the same result.
-
-### Calculate Distance Between Locations
-
-The "Calculate Distance Between Locations" script calculates the distance along a straight line (great circle) path between two points on the surface of the Earth. The LocationDistance custom function can be used for the same result.
+The "Calculate Distance Between Locations" script calculates the distance, start azimuth, and end azimuth along a straight line (geodesic) path between two points on the surface of the Earth. The LocationDistanceValues custom function can be used for the same result.
 
 ### Get Current Location
 
 The "Get Current Location" script parses the result of the LocationValues function into separate variables, and checks whether the result is cached from a previous location fix.
 
-### Set Preferred Navigation App
-
-The Location Kit module includes scripts for launching other iOS apps for providing turn-by-turn directions to a destination. The "Set Preferred Navigation App" script sets which app will be used by the "Start Navigation" script during a user session, so that users with different installed apps can be accommodated.
-
 ### Start Navigation
 
-The "Start Navigation" script launches the preferred navigation app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude). Some apps offer options that others do not. Navigon accepts a "name" parameter, and Google Maps accepts a "directionsMode" parameter, for example.
+The "Start Navigation" script launches a navigation app on iOS to start navigation to a location. The location can be specified by address or coordinates (latitude and longitude). Some apps offer options that others do not. Navigon accepts a "name" parameter, and Google Maps accepts a "directionsMode" parameter, for example.
 
 ## Custom Functions
 
@@ -44,8 +36,12 @@ The LocationCardinalDirection custom function converts an azimuth into a cardina
 
 ### LocationDistance ( latitude1 ; longitude1 ; latitude2 ; longitude2 )
 
-The LocationDistance custom function calculates the distance along a straight line (great circle) path between two points on the surface of the Earth. The "Calculate Distance Between Locations" script can be used for the same result.
+The LocationDistance custom function calculates the distance along a straight line (geodesic) path between two points on the surface of the Earth. The "Calculate Distance and Direction Between Locations" script can be used for the same result.
+
+### LocationDistanceValues ( startLatitude ; startLongitude ; endLatitude ; endLongitude )
+
+The LocationDistanceValue custom function calculates the distance, start azimuth, and end azimuth along a straight line (geodesic) path between two points on the surface of the Earth. The "Calculate Distance and Direction Between Locations" script can be used for the same result.
 
 ## License
 
-Anyone may do anything with this software. There is no warranty.
+Anyone may do anything with this software for any purpose. There is no warranty.
